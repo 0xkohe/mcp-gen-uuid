@@ -1,5 +1,5 @@
-import { Server } from "npm:@modelcontextprotocol/sdk@1.5.0/server/index.js";
-import { StdioServerTransport } from "npm:@modelcontextprotocol/sdk@1.5.0/server/stdio.js";
+import { Server } from "npm:@modelcontextprotocol/sdk@1.8.0/server/index.js";
+import { StdioServerTransport } from "npm:@modelcontextprotocol/sdk@1.8.0/server/stdio.js";
 import {
   CallToolRequestSchema,
   ListResourcesRequestSchema,
@@ -7,7 +7,7 @@ import {
   Tool,
   CallToolRequest,
   // Assuming CallToolResponse structure is handled by the SDK based on return value
-} from "npm:@modelcontextprotocol/sdk@1.5.0/types.js";
+} from "npm:@modelcontextprotocol/sdk@1.8.0/types.js";
 
 // Define the get_uuid tool according to the SDK's Tool type
 const GET_UUID_TOOL: Tool = {
