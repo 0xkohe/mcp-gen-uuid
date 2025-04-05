@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "uuid-server": {
+      "command": "deno",
+      "args": [
+        "run",
+        "-A",
+        "./uuid-server/main.ts"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
